@@ -1,0 +1,21 @@
+
+.contenedor{
+	background-color: rgb(0, 255, 149);
+}
+
+.centrar{
+	text-align: center;
+}
+
+.bloque{
+	text-align: center;
+	padding: 100px;
+}
+
+.submenu{
+	font-size: 18px	;
+}
+
+li{
+    text-align: left;
+ }
