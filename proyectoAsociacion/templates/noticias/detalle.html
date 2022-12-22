@@ -6,13 +6,13 @@
 
 {% block contenido %}
 	<h1>Noticia</h1>
-		<img src="{{noticia.imagen.url}}" width="500" height="500">
+		<img src="{{noticia.imagen.url}}" width="400" height="400">
 		
 		<p>TITULO: {{noticia.titulo}}</p>
 		
 		<p>FECHA: {{noticia.fecha}}</p>
 		<p>CATEGORIA: {{noticia.categoria_noticia}}</p>
-		<p>CUERPO: {{noticia.cuerpo}}</p>
+		<p font-size: 50px>CUERPO: {{noticia.cuerpo}}</p>
 		<br><br>
 		<br>
 		<form method="POST" action="{% url 'noticias:comentar' %}">{% csrf_token %}
